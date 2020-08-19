@@ -43,7 +43,5 @@ In this completion of the IoTcloudServe@TEIN project, this 3rd collaboration com
 | 15:10 - 15:30  | - <a href="https://github.com/IoTcloudServe/the-3rd-collaboration-community-meeting/tree/master/Presentation_program/13_Cloud_Based_Smart_Energy">Cloud-Based Smart Energy Framework for Accelerated Data Analytics with Parallel Computing of Orchestrated Containers: Study Case of CU-BEMS</a>                                                                                                                                                                                                                                     |
 | 15:30 - 16:00  | - Possible Future Collaboration in Open Federated Playgrounds for AI-Inspired SmartX Services (OF@TEIN++) Project Under Asi@Connect in Extension from Achievement of IoTcloudServe@TEIN and OF@TEIN+                                                                                                                                                                              |
 | 16:00 - 19:00  | Social Dinner  
+<a href="/Agenda/Agenda_Collaboration_meeting.pdf" style="margin:20px auto; text-align:center; display:block; width:120px;" class="button large hpbottom"><h2>>>Click Here For Full Program<<</a>
 
-<div style="text-align: center">
-<a href="/Agenda/Agenda_Collaboration_meeting.pdf" class="button large hpbottom"><h2>>>Click Here For Full Program<<</h2></a>
-</div>
