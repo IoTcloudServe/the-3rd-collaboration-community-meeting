@@ -1,7 +1,7 @@
 ![Heading Collaboration](/Agenda/Heading.png "Test1")
 ## <img width="3.5%" src="/Agenda/picture/objective.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true"> Event Goal and Objective </i> 
 <details>
-<summary>More Info</summary>
+<summary>Click Here for More Info!</summary>
 Future Internet evolution with the emerging Internet of Things (IoT) has already shed light upon a huge potential as connected-society enablement. With the exponential growth of IoT, a scaleable data-centric IoT system by sharing the physical resources across services or workloads is needed to support the huge data collection and processing from various IoT devices. To investigate this challenge together in TEIN community, this “Data-Centric IoT-Cloud Service Platform for Smart Communities (IoTcloudServe@TEIN)” project has been instantiated within the umbrella of Asi@Connect with the following objectives:
     
 - To design, develop, and operate a centralized IoT-cloud service platform site (called “IoTcloudServe@TEIN”) in Thailand, that is accessible over TEIN communities with the supports from the OF@TEIN+ underlay network infrastructure.
@@ -27,5 +27,15 @@ In this completion of the IoTcloudServe@TEIN project, this 3rd collaboration com
 <img width="30%" alt="registration" src ="/Agenda/picture/register1.png" />
 </a>
 
-## Event Program
+## <img width="3.5%" src="/Agenda/picture/pic_agen.jpg" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Event Program</i>
 
+|      Time     |                                                                                                                                                     Activities                                                                                                                                                    |
+|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|  8:30 - 9:00  | - Local registration at 3 venues (Thailand, Laos, Korea)                                                                                                                                                                                                                                                          |
+|  9:00 - 9:50  | - Welcome speech<br>- Overall Project Report<br>- Opening Speech<br>- Collaboration Partnership Speech                                                                                                                                                                                                            |
+|     10:00     | - Group Photo                                                                                                                                                                                                                                                                                                     |
+| 10:00 - 10:30 | - Keynote: Cloud-native & Data-centric AI+X Infrastructure and Platform                                                                                                                                                                                                                                           |
+| 11:30 - 11:20 | - Toward Large-Scale Microservice Orchestration with Kubernetes Technology in IoTcloudServe@TEIN Testbed Infrastructure<br>- Demonstration of Integrating Tools for Logging, Monitoring, and Visibility System for IoTcloudServe@TEIN<br>- Demonstration of Rancher Resource Control Policy in IoTcloudServe@TEIN |
+| 11:20 - 12:00 | - An Experimental Study of Kubernetes Cluster Peer-to-Peer Application Level Federation via Istio Service Mesh<br>- Maintaining SmartX Multi-View Operations for OF@TEIN+ Distributed Cloud-native Edge Boxes                                                                                                     |
+| 12:00 - 13:00 |                                                                                                                                                       Lunch                                                                                                                                                       |
+|               |                                                                                                                                                                                                                                                                                                                   |
