@@ -28,4 +28,6 @@ In this completion of the IoTcloudServe@TEIN project, this 3rd collaboration com
 </a>
 
 ## <img width="3.5%" src="/Agenda/picture/pic_agen.jpg" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Event Program</i>
-
+|      Time      | Activities                                                                                                                                                                                                                                                                                                                                                                        |
+|:--------------:|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 8:30 - 9:00    | - <a href="https://github.com/IoTcloudServe/the-3rd-collaboration-community-meeting/tree/master/Presentation_program/1_Key_note">Local registration at 3 venues (Thailand, Laos, Korea)</a>                                                                                                                                                                                       |
