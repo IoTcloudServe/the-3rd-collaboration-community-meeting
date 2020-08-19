@@ -17,11 +17,11 @@
 
 **Time:** 8:30 - 16:00 HR. (Social Dinner: 16:00 - 19:00 HR. (Thailand. Laos))
 
-**Venues**: Real-time video conference joining 5 countries
-- Faculty of Engineering at Chulalongkorn University (CU), Thailand
-- Gwangju Institue of Science and Technology (GIST), South Korea
-- Faculty of Engineering at National University of Laos (NUOL), Laos
-- The University of Tokyo, Japan 
-- University of Malaya, Malaysia
+**Venues**: Real-time video conference joining 5 countries include
+> - Faculty of Engineering at Chulalongkorn University (CU), Thailand
+> - Gwangju Institue of Science and Technology (GIST), South Korea
+> - Faculty of Engineering at National University of Laos (NUOL), Laos
+> - The University of Tokyo, Japan 
+> - University of Malaya, Malaysia
 
 
