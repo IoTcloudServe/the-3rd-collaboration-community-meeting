@@ -45,5 +45,5 @@ In this completion of the IoTcloudServe@TEIN project, this 3rd collaboration com
 | 16:00 - 19:00  | Social Dinner  
 
 <div style="text-align: center">
-<a href=""><h2>Click Here For Full Program</h2></a>
+<a href="/Agenda/Agenda_Collaboration_meeting.pdf" class="button large hpbottom"><h2>>>Click Here For Full Program<<</h2></a>
 </div>
