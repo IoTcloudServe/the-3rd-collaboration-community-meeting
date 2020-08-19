@@ -26,7 +26,7 @@
 
 ## <img width="3.5%" src="/Agenda/picture/registration.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Registration</i>
 <a href="https://forms.gle/LhFJHnbHQrRgXMth6">
-<img width="" alt="registration" src ="/Agenda/picture/register1.png" />
+<img width="50%" alt="registration" src ="/Agenda/picture/register1.png" />
 </a>
 
 
