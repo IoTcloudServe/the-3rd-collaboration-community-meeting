@@ -25,6 +25,8 @@
 - University of Malaya, Malaysia
 
 ## <img width="3.5%" src="/Agenda/picture/registration.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Registration</i>
-[![Register](/Agenda/picture/registration.png)*Click here to join our event*][forms.gle/LhFJHnbHQrRgXMth6]
+<a href="https://forms.gle/LhFJHnbHQrRgXMth6">
+<img width="" alt="registration" src ="/Agenda/picture/register1.png" />
+</a>
 
 
