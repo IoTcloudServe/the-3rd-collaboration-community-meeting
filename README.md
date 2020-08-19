@@ -14,7 +14,9 @@
 ## <img width="3.5%" src="/Agenda/picture/details.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Event Details</i> 
 
 **Date:** Tuesday 8th September 2020
+
 **Time:** 8:30 - 16:00 HR. (Social Dinner: 16:00 - 19:00 HR. (Thailand. Laos))
+
 **Venues**: Real-time video conference joining 5 countries include
 - Faculty of Engineering at Chulalongkorn University (CU), Thailand
 * Gwangju Institue of Science and Technology (GIST), South Korea
@@ -24,7 +26,7 @@
 
 ## <img width="3.5%" src="/Agenda/picture/registration.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Registration</i>
 <a href="https://forms.gle/LhFJHnbHQrRgXMth6">
-<img width="50%" alt="registration" src ="/Agenda/picture/register1.png" />
+<img width="30%" alt="registration" src ="/Agenda/picture/register1.png" />
 </a>
 
 
