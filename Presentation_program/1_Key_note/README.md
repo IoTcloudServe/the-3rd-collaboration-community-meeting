@@ -10,3 +10,4 @@
     <h4>Name :</h4> Prof. Jongwon Kim<br>
     <h4>Affiliation :</h4> Co-Principal Investigator of IoTcloudServe@TEIN Project <br>
     </div>
+</div>
