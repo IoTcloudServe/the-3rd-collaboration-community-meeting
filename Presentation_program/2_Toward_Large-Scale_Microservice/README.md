@@ -1,20 +1,16 @@
 ## <img width="3.5%" src="/Agenda/picture/biblio.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">About Speaker</i> 
+<a href="https://www.cp.eng.chula.ac.th/en/about/faculty/krerkp/">
+<img width="20%" alt="your_picture" src ="/Presentation_program/2_Toward_Large-Scale_Microservice/picture/prof_krerk" /><>
 
-<img width="20%" alt="your_picture" src ="/Presentation_program/2_Toward_Large-Scale_Microservice/picture/....(file name of picture).." />
+**Name :**<br>Assoc. Prof. Dr Krerk Piromsopa
 
-**Name :**<br>...(your name)...
+**Affiliation :**<br>Chulalongkorn University Big Data Analytics and IoT Center (CUBIC)<br>Department of Computer Engineering, Faculty of Engineering<br>Chulalongkorn University, Thailand
 
-**Affiliation :**<br>...(your affiliation)...
+**Contact :**<br>krerk@cp.eng.chula.ac.th
 
-**Contact :**<br>...(your email)...
-
-<details>
-    <summary>Click Here for Short Biography!</summary>
-    ....(Optional)....
-</details>
 
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
-<h3> ....(you presentation topic)...</h3>
+<h3>Toward Large-Scale Microservice Orchestration with Kubernetes Technology in IoTcloudServe@TEIN Testbed Infrastructure</h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
 - please specify here <br>
