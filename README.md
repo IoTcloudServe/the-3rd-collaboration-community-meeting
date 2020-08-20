@@ -26,7 +26,7 @@ In this completion of the IoTcloudServe@TEIN project, this 3rd collaboration com
 
 ## <img width="3.5%" src="/Agenda/picture/registration.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Registration</i>
 <a href="https://forms.gle/LhFJHnbHQrRgXMth6">
-<img width="30%" alt="registration" src ="/Agenda/picture/register1.png" />
+<img width="50%" alt="registration" src ="/Agenda/picture/register1.png" />
 </a>
 
 ## <img width="3.5%" src="/Agenda/picture/pic_agen.jpg" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Event Program</i>
