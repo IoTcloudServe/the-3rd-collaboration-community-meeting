@@ -18,7 +18,7 @@
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
 <h3> Cloud-native & Data-centric AI+X Infrastructure and Platform</h3>
 
-## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
+## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
 - please specify here <br>
 - please specify here <br>
 - please specify here <br>
