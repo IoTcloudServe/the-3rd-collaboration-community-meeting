@@ -57,3 +57,5 @@ In this completion of the IoTcloudServe@TEIN project, this 3rd collaboration com
 ## <img width="3.5%" src="/Agenda/picture/collaboration.jpg" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Our Partnerships</i>
 
 ![Partnership](/Agenda/partner.png "Test2")
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FIoTcloudServe%2Fthe-3rd-collaboration-community-meeting&count_bg=%2379C83D&title_bg=%23555555&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
