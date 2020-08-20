@@ -4,11 +4,11 @@
     <img width="20%" alt="jongwon" src ="/Presentation_program/1_Key_note/picture/prof_jongwon.jpg" />
 </a>
 
-<h4>Name :</h4>Prof. Jongwon Kim
+**Name :**<br>Prof. Jongwon Kim
 
-<h4>Affiliation :</h4>Co-Principal Investigator of IoTcloudServe@TEIN Project <br> Dean of Gwangju Insititue of Science and Technology (GIST) AI Graduate School, South Korea
+**Affiliation :**<br>Co-Principal Investigator of IoTcloudServe@TEIN Project <br> Dean of Gwangju Insititue of Science and Technology (GIST) AI Graduate School, South Korea
 
-<h4>Contact :</h4> jongwon@gist.ac.kr
+**Contact :**<br>jongwon@gist.ac.kr
 
 <details>
     <summary>Click Here for More Info!</summary>
