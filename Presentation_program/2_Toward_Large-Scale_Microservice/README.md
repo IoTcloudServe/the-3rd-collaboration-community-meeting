@@ -1,6 +1,6 @@
 ## <img width="3.5%" src="/Agenda/picture/biblio.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">About Speaker</i> 
 <a href="https://www.cp.eng.chula.ac.th/en/about/faculty/krerkp/">
-<img width="20%" alt="your_picture" src ="/Presentation_program/2_Toward_Large-Scale_Microservice/picture/prof_krerk" /><>
+<img width="20%" alt="your_picture" src ="/Presentation_program/2_Toward_Large-Scale_Microservice/picture/prof_krerk.jpg" /></a>
 
 **Name :**<br>Assoc. Prof. Dr Krerk Piromsopa
 
