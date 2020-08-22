@@ -1,6 +1,6 @@
 ## <img width="3.5%" src="/Agenda/picture/biblio.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">About Speaker</i> 
 
-<img width="20%" alt="your_picture" src ="/Presentation_program/13_Cloud_Based_Smart_Energy/picture/myPicture />
+<img width="20%" alt="your_picture" src ="/Presentation_program/13_Cloud_Based_Smart_Energy/picture/myPicture/>
 
 **Name :**<br> Siravit Kwankajornkeat
 
