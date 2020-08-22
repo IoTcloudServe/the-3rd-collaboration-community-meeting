@@ -1,6 +1,6 @@
 ## <img width="3.5%" src="/Agenda/picture/biblio.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">About Speaker</i> 
 
-<img width="20%" alt="your_picture" src ="/Presentation_program/12_Smart_Energy_in_Chulalongkorn/picture/....(file name of picture).." />
+<img width="20%" alt="your_picture" src ="/Presentation_program/13_Cloud_Based_Smart_Energy/picture/....(file name of picture).." />
 
 **Name :**<br>...(your name)...
 
@@ -21,4 +21,4 @@
 - please specify here <br>
 - please specify here <br>
 - please specify here <br>
-<h3><a href="/Presentation_program/12_Smart_Energy_in_Chulalongkorn/presentation_material">>>Click Here for Download Materials<<</a></h3>
+<h3><a href="/Presentation_program/13_Cloud_Based_Smart_Energy/presentation_material">>>Click Here for Download Materials<<</a></h3>
