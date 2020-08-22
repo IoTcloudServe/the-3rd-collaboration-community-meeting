@@ -17,7 +17,7 @@
 <h3> Cloud-Based Smart Energy Framework for Accelerated Data Analytics with Parallel Computing of Orchestrated Containers: Study Case of CU-BEMS </h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
-- Development of IoTcloudServe@TEIN presentation.pdf <br>
+- please specify here <br>
 - please specify here <br>
 - please specify here <br>
 - please specify here <br>
