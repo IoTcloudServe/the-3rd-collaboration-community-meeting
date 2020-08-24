@@ -1,1 +1,1 @@
-![collaboation](/vanue/picuture/100yearbuilding.jpg "Test1")
+![collaboation](/vanue/picture/100yearbuilding.jpg "Test1")
