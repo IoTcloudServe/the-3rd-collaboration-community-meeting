@@ -1,7 +1,7 @@
 ![collaboation](/vanue/picture/100yearbuilding.jpg "Test1")
 ## <img width="4%" src="/Agenda/picture/location.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true"> Vanue's Details </i> 
 ## location
-Room 201A, 2nd-Floor, 100th anniversary of chula engineering building, Phaya Thai Road, Wang Mai, Pathumwan, Bangkok 10330, Thailand
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306141.380212437!2d126.3453416664724!3d33.3711157139061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350ce3544cc84045%3A0x66bc36d2981ebf31!2sJeju-do%2C+South+Korea!5e0!3m2!1sen!2sus!4v1473136714592" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+Room 201A, 2nd-Floor, Centennial Building, Faculty of Engineering, Chulalongkorn University, Henri Dunant Road, Pathumwan, Pathumwan District, Bangkok 10330, Thailand
+<a href="https://www.google.com/maps/place/Centennial+Building,+Faculty+of+Engineering/@13.7362055,100.5328567,17.61z/data=!4m18!1m12!4m11!1m6!1m2!1s0x30e29ed5c73c4281:0x1d308f75b16d208f!2sCentennial+Building,+Faculty+of+Engineering!2m2!1d100.5339478!2d13.736365!1m3!2m2!1d100.5339346!2d13.7364546!3m4!1s0x30e29ed5c73c4281:0x1d308f75b16d208f!8m2!3d13.736365!4d100.5339478"><img width="10%" src="/Agenda/picture/giphy.gif" /></a>
 
 ## Telephone:
