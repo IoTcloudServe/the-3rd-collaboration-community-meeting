@@ -1,1 +1,1 @@
-![Heading Collaboration](/Agenda/picutre/100yearbuilding.jpg "Test1")
+![Heading Collaboration](/Agenda/picuture/100yearbuilding.jpg "Test1")
