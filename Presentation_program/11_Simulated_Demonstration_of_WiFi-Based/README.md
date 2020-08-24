@@ -22,11 +22,7 @@ Bangkok, Thailand
 </details>
 
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
-<h3> ....(you presentation topic)...</h3>
+<h3> Simulated Demonstration of WiFi-Based Road Traffic Monitoring Application Using Software Defined Wireless Mesh Network</h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
 <h3><a href="/Presentation_program/11_Simulated_Demonstration_of_WiFi-Based/presentation_material">>>Click Here for Download Materials<<</a></h3>
