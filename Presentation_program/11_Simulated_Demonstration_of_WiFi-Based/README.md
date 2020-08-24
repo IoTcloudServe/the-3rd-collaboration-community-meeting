@@ -1,16 +1,21 @@
 ## <img width="3.5%" src="/Agenda/picture/biblio.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">About Speaker</i> 
 
-<img width="20%" alt="your_picture" src ="/Presentation_program/11_Simulated_Demonstration_of_WiFi-Based/picture/....(file name of picture).." />
+<img width="20%" alt="your_picture" src ="/Presentation_program/11_Simulated_Demonstration_of_WiFi-Based/picture/S__6012933.jpg" />
 
-**Name :**<br>...(your name)...
+**Name :**<br>...Mr Meechai Homchan...
 
-**Affiliation :**<br>...(your affiliation)...
+**Affiliation :**<br>...Wireless Network and Future Internet Research Unit
+Department of Electrical Engineering
+Faculty of Engineering
+Chulalongkorn University
+Bangkok, Thailand
+...
 
-**Contact :**<br>...(your email)...
+**Contact :**<br>...6170247021@student.chula.ac.th ...
 
 <details>
     <summary>Click Here for Short Biography!</summary>
-    ....(Optional)....
+    MEECHAI HOMCHAN received the B.Sc. degree in physics from Chulalongkorn University, Thailand, in 2018. I'm currently studying in master’s degree of electrical engineering from Chulalongkorn University, Thailand. His research interests include software defined networking, Internet of Things, building energy management system, and traffic flow management in intelligent transportation systems.
 </details>
 
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
