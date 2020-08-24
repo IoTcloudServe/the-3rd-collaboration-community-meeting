@@ -2,16 +2,19 @@
 
 <img width="20%" alt="your_picture" src ="/Presentation_program/11_Simulated_Demonstration_of_WiFi-Based/picture/S__6012933.jpg" />
 
-**Name :**<br>...Mr Meechai Homchan...
+**Name :**<br> Mr Meechai Homchan
 
-**Affiliation :**<br>...Wireless Network and Future Internet Research Unit
+**Affiliation :**<br> Wireless Network and Future Internet Research Unit
+
 Department of Electrical Engineering
-Faculty of Engineering
-Chulalongkorn University
-Bangkok, Thailand
-...
 
-**Contact :**<br>...6170247021@student.chula.ac.th ...
+Faculty of Engineering
+
+Chulalongkorn University
+
+Bangkok, Thailand
+
+**Contact :**<br> 6170247021@student.chula.ac.th 
 
 <details>
     <summary>Click Here for Short Biography!</summary>
