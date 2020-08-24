@@ -17,8 +17,6 @@
 <h3> Prototyping a Small-Scaled Resilient Software-Defined Wireless Mesh Network with Dual-band Data and Out-of-band Control Planes</h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
+- pptlt_APAN50_paper.pdf <br>
+- pptlt_apan50_presentation.pptx <br>
 <h3><a href="/Presentation_program/10_Prototyping_Small-Scaled_SDWMN/presentation_material">>>Click Here for Download Materials<<</a></h3>
