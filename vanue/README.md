@@ -1,1 +1,2 @@
 ![collaboation](/vanue/picture/10yearbuilding.jpg "Test1")
+## <img width="4%" src="/Agenda/picture/location.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true"> Vanue's Details </i> 
