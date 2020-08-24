@@ -1,1 +1,1 @@
-![collaboation](/../Agenda/picuture/100yearbuilding.jpg "Test1")
+![collaboation](/picuture/100yearbuilding.jpg "Test1")
