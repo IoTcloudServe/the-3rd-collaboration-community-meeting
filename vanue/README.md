@@ -14,6 +14,7 @@ Room 201A, 2nd-Floor, Centennial Building, Faculty of Engineering, Chulalongkorn
 - Open from 05.00 – 24.00 hrs. <h4 align="right"> Click Here to See on Google Map <a href="https://www.google.com/maps/place/Parking+Building+2/@13.7391476,100.5341898,20.08z/data=!4m12!1m6!3m5!1s0x0:0xcc22782b355eaca4!2sChulalongkorn+University!8m2!3d13.7384715!4d100.5313366!3m4!1s0x30e29f63344e69d1:0x7ff5ceceb54b4e5b!8m2!3d13.7391565!4d100.5344436"><img width="6%" src="/Agenda/picture/giphy.gif" /></a></h4>
 <br>
 <br>
+
 <img width="50%" src="/vanue/picture/car2.jpg" /><br/>
 **Parking space 2: Car Park 3 building**<br/>
 - located at the south-eastern corner of the campus, close to the Faculty of Political Science
