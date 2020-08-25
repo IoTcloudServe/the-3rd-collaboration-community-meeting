@@ -14,7 +14,8 @@ In this completion of the IoTcloudServe@TEIN project, this 3rd collaboration com
 
 ## <img width="3.5%" src="/Agenda/picture/details.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Event Details</i> 
 
-**Date:** Tuesday 8th September 2020 |                |**Time:** 8:30 - 16:00 HR. (Social Dinner: 16:00 - 19:00 HR. (Thailand. Laos))<br>
+**Date:** Tuesday 8th September 2020 <br/>
+**Time:** 8:30 - 16:00 HR. (Social Dinner: 16:00 - 19:00 HR. (Thailand. Laos))<br>
 **Meeting Link:** <img width="7%" src="/Agenda/picture/zoom.png" /> https://chula.zoom.us/j/93021583189
 <br><h2 align="center"><a href="http://free.timeanddate.com/countdown/i7f8gj4o/n28/cf100/cm0/cu4/ct0/cs0/ca0/cr0/ss1/cacf00/cpc000/pct/tcbfd2f0/fn2/fs100/szw576/szh243/tatTime%20left%20to%20the%20event%20in/tac00f/tptTime%20since%20Event%20started%20in/tpc000/mac00f/mpc000/iso2020-09-08T08:30:00/bas6/pd2" class="button large hpbottom"><img width="15%" src="/Agenda/picture/Clock1.gif" /></a></h2>
 
