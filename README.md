@@ -26,8 +26,8 @@ In this completion of the IoTcloudServe@TEIN project, this 3rd collaboration com
 - University of Malaya, Malaysia
 
 ## <img width="3.5%" src="/Agenda/picture/registration.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Registration</i>
-<a href="https://forms.gle/LhFJHnbHQrRgXMth6">
-<img width="30%" alt="registration" src ="/Agenda/picture/register1.png" />
+<a href="https://forms.gle/LhFJHnbHQrRgXMth6"><h1 align="center">
+<img width="40%" alt="registration" src ="/Agenda/picture/register1.png" /></h1>
 </a>
 
 ## <img width="3.5%" src="/Agenda/picture/pic_agen.jpg" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Event Program</i>
