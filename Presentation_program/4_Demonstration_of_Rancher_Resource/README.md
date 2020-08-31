@@ -2,11 +2,11 @@
 
 <img width="20%" alt="your_picture" src ="/Presentation_program/4_Demonstration_of_Rancher_Resource/picture/....(file name of picture).." />
 
-**Name :**<br>...(your name)...
+**Name :**<br>Natt Visavarungroj
 
-**Affiliation :**<br>...(your affiliation)...
+**Affiliation :**<br>Wireless Network and Future Internet Research Unit Department of Electrical Engineering, Faculty of Engineering Chulalongkorn University
 
-**Contact :**<br>...(your email)...
+**Contact :**<br>natt.visavarungroj@gmail.com
 
 <details>
     <summary>Click Here for Short Biography!</summary>
@@ -14,7 +14,7 @@
 </details>
 
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
-<h3> ....(you presentation topic)...</h3>
+<h3> Demonstration of Rancher Resources Control policies </h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
 - please specify here <br>
