@@ -12,7 +12,8 @@ Our design is based on the peer-to-peer federation model, where all management r
 In this model, cross-cluster communication is sent to the local Istio gateway and routed to the Istio gateway of another cluster by mTLS protocol. And this routing process can be configured so that an Istio gateway acts like a load balancer that controls traffic between clusters.
 
 ## Tools for Demonstratation
-- <img width=4% src="/Agenda/picture/istio.png"/>Istio 1.5.10
-- <img>Kiali
+- Istio 1.5.10 <img width=4% src="/Agenda/picture/istio.png"/>
+- Kiali <img width=4% src="/Agenda/picture/kiali.png"/>
 
-##
+## How it work
+<h3 align="center"><img width="90%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/flow_chart.png" /></h3>
