@@ -58,6 +58,54 @@ end = time.time()
 print("Took {} seconds to pull {} websites.".format(end - start, amount))
 ```
 - echo server image (k8s.gcr.io/echoserver:1.10)
+- Destination rule in .yaml file (for only cluster 1)
+```
+apiVersion: networking.istio.io/v1alpha3
+kind: DestinationRule
+metadata:
+  name: echo
+spec:
+  host: echo.istio.svc.cluster.local
+      #################
+    ### Define policy ###
+      #################
+  trafficPolicy:
+    connectionPool:
+      tcp:
+        maxConnections: 1
+      http:
+        http2MaxRequests: 1
+        maxRequestsPerConnection: 1
+        http1MaxPendingRequests: 1
+    outlierDetection:
+      consecutiveErrors: 1
+      interval: 10s
+      baseEjectionTime: 1m
+      maxEjectionPercent: 100
+    tls:
+      mode: "ISTIO_MUTUAL"
+```
+- Service entry in .yaml (for only cluster 1)
+```
+apiVersion: networking.istio.io/v1alpha3
+kind: ServiceEntry
+metadata:
+  name: echo
+spec:
+  hosts:
+  - echo.istio.svc.cluster.local
+  ports:
+  - name: http
+    number: 80
+    protocol: http
+  resolution: STATIC
+  location: MESH_INTERNAL
+  endpoints:
+  - address: 202.28.193.115 #point to the cluster2's gateway 
+    locality: us-west1/us-west1-b
+    ports:
+      http: 15443 #tls protocol
+```
 
 ## How it work
 <h3 align="center"><img width="70%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/flow_chart.png" /></h3>
