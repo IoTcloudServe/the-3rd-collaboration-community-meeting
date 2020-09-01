@@ -12,7 +12,7 @@ Our design is based on the peer-to-peer federation model, where all management r
 In this model, cross-cluster communication is sent to the local Istio gateway and routed to the Istio gateway of another cluster by mTLS protocol. And this routing process can be configured so that an Istio gateway acts like a load balancer that controls traffic between clusters.
 
 ## Tools for Demonstratation
-- <img width=50% src="/Agenda/picture/istio.png"/>Istio 1.5.10
+- <img width=4% src="/Agenda/picture/istio.png"/>Istio 1.5.10
 - <img>Kiali
 
 ##
