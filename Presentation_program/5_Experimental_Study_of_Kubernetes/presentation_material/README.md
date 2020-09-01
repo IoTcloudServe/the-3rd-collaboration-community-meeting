@@ -8,4 +8,4 @@ we propose a pragmatic implementation framework in which Kubernetes clusters are
 
 ## The Diagram of Proposed Medel (Cross-cluster communication)
 Our design is based on the peer-to-peer federation model, where all management resources are distributed across all clusters, so there is no hierarchical relationship between clusters. In other words, each cluster will install its own Istio control plane. The only shared component is a common root certificate authority, which is needed for authentication in cross-cluster communication.
-<h3 align="center"><img width="90%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/diagram.png" /></h3>
+<h3 align="center"><img width="90%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/diagram1.png" /></h3>
