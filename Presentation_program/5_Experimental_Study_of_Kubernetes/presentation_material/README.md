@@ -17,6 +17,9 @@ Somehow, we can also assign the rule to control incomming/out going traffic as t
 
 
 ## Tools for Demonstratation
+<h3 align="center"><img width="90%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/compo.png" /></h3>
+
+---------------------------------------------------------------------
 - Istio 1.5.10 <img width=4% src="/Agenda/picture/istio.png"/>
 - Kiali <img width=4% src="/Agenda/picture/kiali.png"/>
 - Python3 for HTTP parallel requests
@@ -106,6 +109,8 @@ spec:
     ports:
       http: 15443 #tls protocol
 ```
+
+
 
 ## How it work
 <h3 align="center"><img width="70%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/flow_chart.png" /></h3>
