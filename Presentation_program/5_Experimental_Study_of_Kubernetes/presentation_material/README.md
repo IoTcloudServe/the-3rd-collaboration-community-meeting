@@ -14,6 +14,47 @@ In this model, cross-cluster communication is sent to the local Istio gateway an
 ## Tools for Demonstratation
 - Istio 1.5.10 <img width=4% src="/Agenda/picture/istio.png"/>
 - Kiali <img width=4% src="/Agenda/picture/kiali.png"/>
+- Python3 for HTTP parallel requests
+```
+import asyncio
+import aiohttp
+import time
+
+websites = """http://202.28.193.112
+http://202.28.193.112
+http://202.28.193.112
+http://202.28.193.112
+http://202.28.193.112
+http://202.28.193.112
+http://202.28.193.112
+"""
+
+async def get(url):
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url=url) as response:
+                resp = await response.read()
+                print("Successfully got url {} with response of length {}.".format(url, len(resp)))
+    except Exception as e:
+        print("Unable to get url {} due to {}.".format(url, e.__class__))
+
+async def main(urls, amount):
+    ret = await asyncio.gather(*[get(url) for url in urls])
+    print("Finalized all. ret is a list of len {} outputs.".format(len(ret)))
+
+
+urls = websites.split("\n")
+amount = len(urls)
+
+start = time.time()
+asyncio.run(main(urls, amount))
+end = time.time()
+
+print("Took {} seconds to pull {} websites.".format(end - start, amount))
+```
 
 ## How it work
 <h3 align="center"><img width="90%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/flow_chart.png" /></h3>
+
+## Let Demostrate
+Vituali
