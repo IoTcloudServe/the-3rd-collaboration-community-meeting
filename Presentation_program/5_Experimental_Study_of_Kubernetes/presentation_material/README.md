@@ -12,6 +12,10 @@ Our design is based on the peer-to-peer federation model, where all management r
 <h3 align="center"><img width="90%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/diagram1.png" /></h3>
 In this model, cross-cluster communication is sent to the local Istio gateway and routed to the Istio gateway of another cluster by mTLS protocol. And this routing process can be configured so that an Istio gateway acts like a load balancer that controls traffic between clusters.
 
+Somehow, we can also assign the rule to control incomming/out going traffic as the following picture below
+<h3 align="center"><img width="90%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/rule_control.png" /></h3>
+
+
 ## Tools for Demonstratation
 - Istio 1.5.10 <img width=4% src="/Agenda/picture/istio.png"/>
 - Kiali <img width=4% src="/Agenda/picture/kiali.png"/>
@@ -53,10 +57,10 @@ end = time.time()
 
 print("Took {} seconds to pull {} websites.".format(end - start, amount))
 ```
-- echo server ()
+- echo server image (k8s.gcr.io/echoserver:1.10)
 
 ## How it work
-<h3 align="center"><img width="90%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/flow_chart.png" /></h3>
+<h3 align="center"><img width="70%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/flow_chart.png" /></h3>
 
 ## Server's Details
 <h3>Cluster 1</h3><br>
@@ -69,4 +73,8 @@ Istio-Gateway's IP: 202.28.193.115<br>
 <h4>Visualization: <a href="http://202.28.193.109/kiali/console/graph/namespaces/?edges=noEdgeLabels&graphType=versionedApp&namespaces=default%2Cistio-system&unusedNodes=false&operationNodes=true&injectServiceNodes=true&duration=60&refresh=10000&layout=dagre">Click Here</a></h4>
 
 ## Let Start to Demonstrate
+<h3>Scenario 1: cluster1 still be healthy</h3><br>
+<h3 align="center"><img width="70%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/cluster_ok.png" /></h3>
 
+<h3>Scenario 2: cluster2 not longer be healthy</h3><br>
+<h3 align="center"><img width="70%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/cluster_nok.png" /></h3>
