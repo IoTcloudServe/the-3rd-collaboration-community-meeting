@@ -17,7 +17,7 @@ Somehow, we can also assign the rule to control incomming/out going traffic as t
 
 
 ## Tools for Demonstratation
-<h3 align="center"><img width="90%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/compo.png" /></h3>
+<h3 align="center"><img width="50%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/compo.png" /></h3>
 
 ---------------------------------------------------------------------
 - Istio 1.5.10 <img width=4% src="/Agenda/picture/istio.png"/>
