@@ -66,6 +66,6 @@ Visualization: <h4><a href="http://202.28.193.111/kiali/console/graph/namespaces
 <br>
 <h3>Cluster 2</h3><br>
 Istio-Gateway's IP: 202.28.193.115<br>
-Visualization: <h4><a href="http://202.28.193.109/kiali/console/graph/namespaces/?edges=noEdgeLabels&graphType=versionedApp&namespaces=default%2Cistio-system&unusedNodes=false&operationNodes=true&injectServiceNodes=true&duration=60&refresh=10000&layout=dagre">Click Here</a></h4>
+<h4>Visualization: <a href="http://202.28.193.109/kiali/console/graph/namespaces/?edges=noEdgeLabels&graphType=versionedApp&namespaces=default%2Cistio-system&unusedNodes=false&operationNodes=true&injectServiceNodes=true&duration=60&refresh=10000&layout=dagre">Click Here</a></h4>
 
 
