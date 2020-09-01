@@ -53,19 +53,20 @@ end = time.time()
 
 print("Took {} seconds to pull {} websites.".format(end - start, amount))
 ```
+- echo server ()
 
 ## How it work
 <h3 align="center"><img width="90%" src="/Presentation_program/5_Experimental_Study_of_Kubernetes/picture/flow_chart.png" /></h3>
 
-## Let Demostrate
-
+## Server's Details
 <h3>Cluster 1</h3><br>
 Istio-Gateway's IP: 202.28.193.112<br>
-Visualization: <h4><a href="http://202.28.193.111/kiali/console/graph/namespaces/?edges=noEdgeLabels&graphType=versionedApp&namespaces=default%2Cistio-system&unusedNodes=false&operationNodes=true&injectServiceNodes=true&duration=60&refresh=10000&layout=dagre">Click Here</a></h4>
+<h4>Visualization: <a href="http://202.28.193.111/kiali/console/graph/namespaces/?edges=noEdgeLabels&graphType=versionedApp&namespaces=default%2Cistio-system&unusedNodes=false&operationNodes=true&injectServiceNodes=true&duration=60&refresh=10000&layout=dagre">Click Here</a></h4>
 <br>
 <br>
 <h3>Cluster 2</h3><br>
 Istio-Gateway's IP: 202.28.193.115<br>
 <h4>Visualization: <a href="http://202.28.193.109/kiali/console/graph/namespaces/?edges=noEdgeLabels&graphType=versionedApp&namespaces=default%2Cistio-system&unusedNodes=false&operationNodes=true&injectServiceNodes=true&duration=60&refresh=10000&layout=dagre">Click Here</a></h4>
 
+## Let Start to Demonstrate
 
