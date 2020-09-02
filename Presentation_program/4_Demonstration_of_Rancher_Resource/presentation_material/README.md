@@ -181,7 +181,7 @@ Deploy Configuration file (.ymal) we deploy test workload for cpu and mem stress
 looking at this file we reserve the mem and cpu (600Mb and 400 millicores) and set the maximum quota to 800 Mb and 800 millicores" .
 
 <p align="center">
-  <img width="300" height="280" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Gafana.PNG"/> </p>
+  <img width="690" height="565" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Gafana.PNG"/> </p>
 
 
 As you can see from Gafana, the quota is being implemented
