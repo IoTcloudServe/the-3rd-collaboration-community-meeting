@@ -155,7 +155,7 @@ I will configured quota resource in the namespace to limit the number of pod in 
 the configured file (.ymal) is shown below : 
 
 <p align="center">
-  <img width="300" height="360" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/pod.PNG"/> </p>
+  <img width="300" height="280" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/pod.PNG"/> </p>
 
 as you can see from .yaml Type : ResourceQuota (it means that we applied this quota to the namespace)
 
@@ -167,3 +167,24 @@ pod: "6" means "in this namespace, there should not be more than 6 pods" .
 
 
 </details>
+
+<details>
+    <summary> 2nd Demo CPU Mem </summary>
+      
+&nbsp; This Demo shows how admins can limit&request cpu mem on the container level. we are going to show that by our quota configuration, even if containers consume cpu mem resources over the specified quota Limit, the user can not uses the resources more than limit.
+
+Deploy Configuration file (.ymal) we deploy test workload for cpu and mem stress test and also set the specific quota.
+
+<p align="center">
+  <img width="300" height="280" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/quota-mem-cpu.PNG"/> </p>
+
+looking at this file we reserve the mem and cpu (600Mb and 400 millicores) and set the maximum quota to 800 Mb and 800 millicores" .
+
+
+<h6><a href="https://202.28.193.103">>>Live Demo via IoTCloudServe :)<<</a></h6>
+
+
+
+</details>
+
+
