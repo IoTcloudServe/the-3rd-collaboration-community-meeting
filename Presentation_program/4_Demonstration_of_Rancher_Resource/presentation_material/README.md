@@ -13,7 +13,7 @@
 </h3> 
  
 <p align="center">
-  <img width="460" height="300" src="https://github.com/NattVi\the-3rd-collaboration-community-meeting\Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\Rancher_quota.PNG">
+  <img width="460" height="300" src="Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\Rancher_quota.PNG">
 </p>
 
 &nbsp;  In Rancher, you apply a resource quota to the project, and then the quota propagates to each namespace, whereafter Kubernetes enforces your limits using the native version of resource quotas. If you want to change the quota for a specific namespace, you can override it.
@@ -37,7 +37,7 @@ In the following diagram, a Rancher administrator wants to apply a resource quot
 </h3>
  
 <p align="center">
-  <img width="460" height="300" src="https://github.com/NattVi\the-3rd-collaboration-community-meeting\Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\Resource Control.PNG">
+  <img width="460" height="300" src="Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\Resource Control.PNG">
 </p>
 
 &nbsp; In our IOTCloudServer, There are 7 projects. Each project and namespace have their own quota limit (CPU, Mem, Pod, PVC).
@@ -61,7 +61,7 @@ Smart Energy 04 : CU Smart Classroom
 </h3>
 
 <p align="center">
-  <img width="690" height="450" src="https://github.com/NattVi\the-3rd-collaboration-community-meeting\Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\Parameters.PNG">
+  <img width="690" height="450" src="Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\Parameters.PNG">
 </p>
 
 &nbsp; When you create a resource quota, you are configuring the pool of resources available to the project. You can set the following resource limits for the following resource types via Rancher GUI.
@@ -79,7 +79,7 @@ I our Project we considered 4 resource types i.e. CPU(cores, millicore), Mem(Gib
 <details>
     <summary>Concept Limit and Reserve</summary>
     <p align="center">
-  <img width="300" height="300" src="https://github.com/NattVi\the-3rd-collaboration-community-meeting\Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\Lim&Req.PNG">
+  <img width="300" height="300" src="Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\Lim&Req.PNG">
 </p>
   
 &nbsp; Requests and limits are the mechanisms Kubernetes uses to control resources such as CPU and memory. Requests are what the container is guaranteed to get. If a container requests a resource, Kubernetes will only schedule it on a node that can give it that resource. Limits, on the other hand, make sure a container never goes above a certain value. The container is only allowed to go up to the limit, and then it is restricted.
@@ -99,7 +99,7 @@ Let’s see how these work.
 <details>
     <summary> Namespace quota setting </summary>
     <p align="center">
-  <img width="300" height="300" src="https://github.com/NattVi\the-3rd-collaboration-community-meeting\Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\Example.PNG">
+  <img width="300" height="300" src="Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\Example.PNG">
 </p>
   
 &nbsp; 
@@ -126,7 +126,7 @@ If you are using a production and development Namespace (in contrast to a Namesp
 <details>
     <summary> Individual Container quota setting </summary>
     <p align="center">
-  <img width="300" height="300" src="https://github.com/NattVi\the-3rd-collaboration-community-meeting\Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\LimRange.PNG">
+  <img width="300" height="300" src="Presentation_program\4_Demonstration_of_Rancher_Resource\presentation_material\LimRange.PNG">
 </p>
   
 &nbsp; 
@@ -142,6 +142,8 @@ The defaultRequest section sets up the default requests for a container in a pod
 The max section will set up the maximum limits that a container in a Pod can set. The default section cannot be higher than this value. Likewise, limits set on a container cannot be higher than this value. It is important to note that if this value is set and the default section is not, any containers that don’t explicitly set these values themselves will get assigned the max values as the limit.
 
 The min section sets up the minimum Requests that a container in a Pod can set. The defaultRequest section cannot be lower than this value. Likewise, requests set on a container cannot be lower than this value either. It is important to note that if this value is set and the defaultRequest section is not, the min value becomes the defaultRequest value too.
+
+Contact 
 
 
 </details>
