@@ -126,8 +126,7 @@ If you are using a production and development Namespace (in contrast to a Namesp
 <details>
     <summary> Individual Container quota setting </summary>
     <p align="center">
-  <img width="300" height="360" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/LimRange.PNG"/>
-</p>
+  <img width="300" height="360" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/LimRange.PNG"/> </p>
   
 &nbsp; 
 
@@ -143,8 +142,28 @@ The max section will set up the maximum limits that a container in a Pod can set
 
 The min section sets up the minimum Requests that a container in a Pod can set. The defaultRequest section cannot be lower than this value. Likewise, requests set on a container cannot be lower than this value either. It is important to note that if this value is set and the defaultRequest section is not, the min value becomes the defaultRequest value too.
 
-Contact 
-
 
 </details>
 
+<details>
+    <summary> 1st Demo POD </summary>
+      
+&nbsp; In this Demo, I showed that I could set POD quota. 
+
+I will configured quota resource in the namespace to limit the number of pod in the namespace 
+
+the configured file (.ymal) is shown below : 
+
+<p align="center">
+  <img width="300" height="360" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/pod.PNG"/> </p>
+
+as you can see from .yaml Type : ResourceQuota (it means that we applied this quota to the namespace)
+
+pod: "6" means "in this namespace, there should not be more than 6 pods" .
+
+
+<h6><a href="https://202.28.193.103">>>Live Demo via IoTCloudServe :)<<</a></h6>
+
+
+
+</details>
