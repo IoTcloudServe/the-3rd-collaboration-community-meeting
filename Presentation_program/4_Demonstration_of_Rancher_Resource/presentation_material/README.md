@@ -90,7 +90,7 @@ Requests and limits are on a per-container basis. While Pods usually contain a s
 
 To control what requests and limits a container can have, you can set quotas at the Container level and at the Namespace level. If you want to learn more about Namespaces, see this previous installment from our blog series!
 
-Let’s see how these work.
+
 </details>
 
 
