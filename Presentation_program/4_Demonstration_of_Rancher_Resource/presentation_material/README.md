@@ -181,7 +181,7 @@ Deploy Configuration file (.ymal) we deploy test workload for cpu and mem stress
 looking at this file we reserve the mem and cpu (600Mb and 400 millicores) and set the maximum quota to 800 Mb and 800 millicores" .
 
 <p align="center">
-  <img width="690" height="565" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Gafana.PNG"/> </p>
+  <img width="720" height="565" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Gafana.PNG"/> </p>
 
 
 As you can see from Gafana, the quota is being implemented
@@ -193,5 +193,28 @@ As you can see from Gafana, the quota is being implemented
 
 
 </details>
+
+
+<details>
+    <summary> 2nd Demo CPU Mem </summary>
+      
+&nbsp; The purpose of Demo is to shows admins can limit&request the storage claim on in the nameSpace 
+
+Configuration file (.ymal) 
+
+<p align="center">
+  <img width="300" height="280" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/pvc.PNG"/> </p>
+
+from this file, we set the persistentvolumeclaims to 2, it means that in this namespace the user can claim only 2 times. requests.storage: 10 Gi means that in the namespace total pvc claims must not be exceeded 10 Gi.
+
+
+
+<h6><a href="https://202.28.193.103">>>Live Demo via IoTCloudServe :)<<</a></h6>
+
+
+
+</details>
+
+
 
 
