@@ -2,15 +2,14 @@
 
 <img width="20%" alt="your_picture" src ="/Presentation_program/3_Demonstration_of_Integrating_Tools/picture/....(file name of picture).." />
 
-**Name :**<br>...(your name)...
+**Name :**<br>Teerit Ploensin
 
-**Affiliation :**<br>...(your affiliation)...
+**Affiliation :**<br>Department of Computer Engineering, Faculty of Engineering, Chulalongkorn University
 
-**Contact :**<br>...(your email)...
+**Contact :**<br>teeritploensin@gmail.com
 
 <details>
     <summary>Click Here for Short Biography!</summary>
-    ....(Optional)....
 </details>
 
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
