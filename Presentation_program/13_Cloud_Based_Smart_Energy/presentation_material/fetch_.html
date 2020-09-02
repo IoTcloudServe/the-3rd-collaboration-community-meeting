@@ -1,0 +1,176 @@
+<!--File: cubems_fetch1888.html
+
+Class: 2102541 IoT Fundamentals
+Department of Electrical Engineering
+Faculty of Engineering, Chulalongkorn University
+
+Code Purpose:
+
+To demo IEEE1888-fetch on CU-BEMS. The code is written to optimise its readability.
+To use it for a production scale, an additional work is required especially on uses
+of 'cursur' to flow-control IEEE1888-fetch in requested data batches of proper size.
+
+Ver 0.1 Written by: Dr C Aswakul (8 Feb 2019)
+        Updated by : SKK
+-->
+
+<html>
+
+<head>
+    <title>CU-BEMS Testbed, Department of Electrical Engineering,
+        Faculty of Engineering, Chulalogkorn University</title>
+
+    <script src="https://cdn.netpie.io/microgear.js"></script>
+
+    <script type="text/javascript">
+
+        function entered_data() {
+            var pointID1 = document.getElementById('PointID1').value.trim();
+            var pointID2 = document.getElementById('PointID2').value.trim();
+            var APPID = document.getElementById('AppID').value.trim(); // APPID is the NETPIE APPID you have created in your NETPIE account; ex. TestAPP
+            var KEY = document.getElementById('Key').value.trim(); // KEY is the "key" of key-secret pair generated in your NETPIE APPID; ex. cDfhyTVfIoDtRzB
+            var SECRET = document.getElementById('Secret').value.trim(); // SECRET is the "secret" of key-secret pair generated in your NETPIE APPID; ex. KuuCtU1bUPyLEfYP2tqQYsuWf
+            return [pointID1, pointID2, APPID, KEY, SECRET];
+        }
+
+        var keyIDSet;
+        var microgear_;
+        var req = setInterval(Fetching, 60000);
+
+        function IsConnected() {
+            keyIDSet = '';
+            var received = '';
+            var wastedEnergy = 0;
+            var keyObject = entered_data().slice(0, 2);
+            var noA = keyObject.length;
+            for (var j = 0; j < noA; j++) {
+                if (keyObject[j].indexOf("bems") >= 0) {keyIDSet += '<key id="' + keyObject[j] + '" attrName="time" select="maximum"></key> '; }                
+            }
+            microgear_ = Microgear.create({ key : entered_data()[3], secret : entered_data()[4] });
+
+            microgear_.on('connected', function () {
+                window.alert("connected");
+                microgear_.subscribe("Your subscribed topic"); // "Your subscribed topic" looks like file directory pattern; ex. "myTopicName/returnedSensorData/Bedroom"
+            });
+
+
+            microgear_.on('message', function (topic, msg) {
+                received += "\n" + msg;
+                if (msg.search("energy") >= 0 && msg.search("pir") >= 0 && msg.search("OFF") >= 0) {
+                    var msg_a = msg.split("     ");
+                    msg_a.splice(2, 1, msg_a[2].split("\n")[0], msg_a[2].split("\n")[1]);
+                    msg_a.splice(5, 1, msg_a[5].split("\n")[0]);
+                    for (k = 0; k < 4; k += 3) {
+                        if (msg_a[k].search("energy") >= 0) {wastedEnergy += parseFloat(msg_a[k+2])/60;}
+                    }
+                    received += "Wasted energy in the room is now " + wastedEnergy + " kWh" + "\n"
+                }
+                else {received += "\n";}
+                document.getElementById("fetched_data").innerHTML = received; 
+            });
+
+            microgear_.connect(entered_data()[2]);            
+        }
+
+        function Fetching(){
+            microgear_.publish("Your publish topic", keyIDSet); // "Your publish topic" looks like file directory pattern; ex. "myTopicName/myRequestSensor/Bedroom"
+        }
+
+        function DisConnected() {
+            clearInterval(req);
+            microgear_ = Microgear.create({ key : "", secret : "" });
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+
+
+    <h1> Development of IoTcloudServe@TEIN Smart-Energy@Chula Service Gateway : </h1>
+    <h1> Case Study of Secured On-Demand Building Energy Management System Data Platform Using NETPIE </h1> <br>
+
+    <h4> This demo website, from the paper published in <a href="url">https://ieeexplore.ieee.org/document/8942214</a>, proposes a framework for implementing Smart-Energy@Chula system of IoTcloudServe@TEIN by using NETPIE security mechanisms. 
+         IoTcloudServe@TEIN project aims to integrate networked collaborative efforts of research and educational communities in the Trans-Eurasia Information Network (TEIN). 
+         Smart-Energy@Chula service has been developed on the earlier completed so-called CU-BEMS (Chulalongkorn University’s Building Energy Management System) testbed with the technical support of CUBEMS 
+         IEEE1888 protocol server engine which aims not only to show on-site energy management automation but also raise people awareness. In practice, building automation system can use CU-BEMS cloud, 
+         which allows the sharing of function or micro-service resources, for real-time decision-making algorithm. For cloud enhancement, we also require a new channel means to enable the secured on-demand 
+         sharing of CU-BEMS OpenData repository via a herein so-called interworking service gateway. The development of the interworking service gateway in this research thus enhances the building energy management to be compliant with different communication protocols, 
+         which could be useful for researchers and manufacturers in the future. </h4> <br>
+
+    <p> “Data-centric IoT-cloud service platform for smart communities” or IoTcloudServe@TEIN project has been established since 20 June 2018. The main purpose of this project is to integrate networked collaborative efforts of research and educational communities 
+        from developed-countries (Korea, Japan), from another developing country (Malaysia), and from a least developed country (Laos). In the project, we should like to achieve a framework design and a proof-of concept implementation for a data-centric 
+        IoT-cloud platform that can help enable IoT-domain service diversification. As an example for IoT-domain service demonstration, herein, the focus is concerned with the IoTcloudServe@TEIN’s SmartEnergy@Chula service based on the earlier completed so-called 
+        CU-BEMS (Chulalongkorn University’s Building Energy Management System) testbed. </p> 
+    <p> CU-BEMS, with the technical support of CU-BEMS IEEE1888 protocol server engine from the University of Tokyo, is readily available with more than 250 energy-related sensors 
+        and smart meters that send the real-time energy and room ambient readings to CU-BEMS storage. With the total data generation rate up to 800 data points in every second, the design of CU-BEMS is to monitor, control and analyze actual energy consumption 
+        profiles as well as relevant building’s ambient environments. The main goal is not only to show site energy management automation in engineering department buildings but also to raise people awareness; for example; a smart meter records energy usage of 
+        air-conditioning systems inside a room and motion sensors in that area check the people movement. If no motion is detected in that room, then the CU-BEMS will alarm the waste energy usage of the air-conditioning system for energy saving. For information-pushing model 
+        design in CU-BEMS, the testbed provides Interactive Display as a Service (IDaaS) to notify to building users the real-time energy-related information to create awareness to staffs and students inside campus. </p> 
+    <p> Accumulation, dissemination, and analysis of CU-BEMS
+        data to all related partners, therefore, form the basic foundation of how current and future Smart-Energy@Chula system functions and evolves. In this paper, we report our implementation of an interworking service gateway to provide a secured means of interacting with 
+        CU-BEMS OpenData repository. The gateway is designed by using the well-established security mechanisms available in the NETPIE capability which can be facilitated within the IoTcloudServe@TEIN framework. </p> <br>
+
+    <p> In CU-BEMS cloud, there are two types of resources to be shared. Firstly, we apply the concept of application virtualization using an open-source network function virtualization (NFV) framework, together with OpenStack cloud operating system, 
+        to allow the sharing of function or micro-service resources. As the second resource type, within the scope of this paper, sensor and control data must be shared and made securely accessible by involved researchers and developers. Practically, 
+        if one needs data for a big analytics purpose, a large archival of past data can be exported manually and forwarded to the data users on preplanned requests. However, the archival is performed only daily after midnight in order to avoid CU-BEMS 
+        storage server overload risks during the normal working hours when the system must be immediately responsive to all user interactivity via IDaaS or a normal CUBEMS web portal. The historical storage archives must be periodically scheduled when 
+        the server utilization is not too high, and hence, not exactly real-time data accessibility. </p> 
+    <p> In practice, a building automation system needs on-demand real-time data sharing from the sensor cloud storage system, like CU-BEMS, to monitor and control 
+        building facilities in an energy efficient manner. Significantly, there are instantaneous data requests from various type of sensors used for decision making algorithm for building automation. To achieve that, we require a new channel means to enable 
+        the secured on-demand sharing of CU-BEMS OpenData repository via a herein so-called interworking service gateway. </p> <br>
+
+    <p> The mechanism and functionality of interworking service gateway or Fetching Gateway are illustrated in the figure shown below and explained as follows. </p>
+    <p> At first, an administrator creates Application ID, later called
+        APPID, in a NETPIE account and gets two generated keysecret pairs, namely, kGW-sGW and kFetch html-sFetch html for Fetching Gateway and Fetch html client, respectively. These key-secret pairs of NETPIE security mechanism allow the interworking service gateway 
+        to identify users’ authentication and authorization in requesting for CU-BEMS data. During the service initialization phase, the administrator also sets Topics T1 and T2 to announce where data requesters can send their requested data PointIDs as well as where the requested data 
+        values will be published subsequently. </p> 
+    <p> Upon its instantiation, the gateway authenticates to NETPIE by using kGW-sGW key and remains to be in its server-listening mode waiting for any data exchange requests that would be published and notified in its subscribed NETPIE Topics. </p>
+    <p> Whenever a user wants to request for a CU-BEMS data by specifying data PointIDs, the user’s request after passing all NETPIE security checks will be sent automatically to Topic T1. The gateway, which already subscribes to Topic T1, gets
+        the published PointID and performs any accessory IEEE1888 FETCH to CU-BEMS storage. CU-BEMS storage replies back with PointID’s data to the gateway, which in turn publishes the responded data values at NETPIE Topic T2. Finally, the Fetch html 
+        of requesting user is notified of the requested data. </p>    
+    <img src="IoTcloudServe_Fetch_html.PNG" alt="Fetch Diagram" width="960" height="540"> <br> <br> <br> <br> <br>
+
+    
+    
+
+    <h4> To get the real-time sensors' values via this secured channel, please follow these steps : </h4>
+    <h4> (1) Try to copy one of the following URLs and paste it on either 'Point ID #1' or 'Point ID #2' box. </h4> <br>
+    
+
+    <p> Your sensor URL 1 : _____/energy </p> 
+    <p> Your sensor URL 2 : _____/pir </p> <br>
+
+    <p> Your sensor URL 3 : _____/energy </p>
+    <p> Your sensor URL 4 : _____/pir </p> <br>
+
+    <p> Your sensor URL 5 : _____/energy </p>
+    <p> Your sensor URL 6 : _____/pir </p> <br>
+
+    <h4> (2) Copy one more URL and paste it on another 'Point ID' box (optional). </h4>
+    <h4> &nbsp; &nbsp; &nbsp;    For example, to calculate wasted energy in a room (optional), copy the energy sensor URL (URL with "/energy" at the end) and its pair PIR (URL with "/pir" at the end) </h4>
+    <h4> &nbsp; &nbsp; &nbsp;    sensor URL, and paste them on the different 'PointID' boxes. To determine wasted energy, refer to "Chooputtipong, K., and Aswakul, C. Development of data analytic program </h4>
+    <h4> &nbsp; &nbsp; &nbsp;    for building energy management system with wasted energy analysis using motion sensor. The 39th Electrical Engineering Conference (EECON-39), Phetchaburi City, Thailand, 2016", </h4>
+    <h4> &nbsp; &nbsp; &nbsp;    if PIR shows that there is no one in the room (PIR sensor status : "OFF") while the air-conditioner is operating (energy sensor status : higher than 0), </h4>
+    <h4> &nbsp; &nbsp; &nbsp;    wasted energy occurs. </h4>
+    <h4> (3) Copy Your APPID, Your key, and Your secret. Paste them in 'APPID', 'KEY', and 'SECRET' boxes, respectively </h4>
+    <h4> (4) Click "Start FETCH" button to fetch data from CUBEMS. If you want to stop fetch, just click "Stop FETCH" botton. </h4> <br><br>
+
+
+    Point ID #1 : <input type="text" size=180 id="PointID1"> <br><br>
+    Point ID #2 : <input type="text" size=180 id="PointID2"> <br><br>
+    APP ID : <input type="text" size=180 id="AppID"> <br><br>
+    KEY : <input type="text" size=180 id="Key"> <br><br>
+    SECRET : <input type="text" size=180 id="Secret"> <br><br>
+    <input type="button" value="Start FETCH" onclick="IsConnected()" />
+    <input type="button" value="Stop FETCH" onclick="DisConnected()" />
+
+    <h2> Fetched result:</h2>
+    <textarea rows="10" cols="180" style="border:none;" id="fetched_data">
+	</textarea>
+
+</body>
+
+</html>
