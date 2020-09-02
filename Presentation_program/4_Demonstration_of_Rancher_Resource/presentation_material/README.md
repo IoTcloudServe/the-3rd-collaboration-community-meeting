@@ -13,7 +13,7 @@
 </h3> 
  
 <p align="center">
-  <img width="690" height="450" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Rancher_quota.PNG"/>
+  <img width="863" height="563" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Rancher_quota.PNG"/>
 </p>
 
 &nbsp;  In Rancher, you apply a resource quota to the project, and then the quota propagates to each namespace, whereafter Kubernetes enforces your limits using the native version of resource quotas. If you want to change the quota for a specific namespace, you can override it.
@@ -37,7 +37,7 @@ In the following diagram, a Rancher administrator wants to apply a resource quot
 </h3>
  
 <p align="center">
-  <img width="690" height="450" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Resource Control.PNG"/>
+  <img width="863" height="580" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Resource Control.PNG"/>
 </p>
 
 &nbsp; In our IOTCloudServer, There are 7 projects. Each project and namespace have their own quota limit (CPU, Mem, Pod, PVC).
@@ -61,7 +61,7 @@ Smart Energy 04 : CU Smart Classroom
 </h3>
 
 <p align="center">
-  <img width="690" height="450" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Parameters.PNG"/>
+  <img width="863" height="570" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Parameters.PNG"/>
 </p>
 
 &nbsp; When you create a resource quota, you are configuring the pool of resources available to the project. You can set the following resource limits for the following resource types via Rancher GUI.
@@ -126,7 +126,7 @@ If you are using a production and development Namespace (in contrast to a Namesp
 <details>
     <summary> Individual Container quota setting </summary>
     <p align="center">
-  <img width="400" height="500" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/LimRange.PNG"/>
+  <img width="300" height="360" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/LimRange.PNG"/>
 </p>
   
 &nbsp; 
