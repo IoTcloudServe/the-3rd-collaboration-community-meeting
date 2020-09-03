@@ -27,9 +27,9 @@ Ver 0.1 Written by: Dr C Aswakul (8 Feb 2019)
         function entered_data() {
             var pointID1 = document.getElementById('PointID1').value.trim();
             var pointID2 = document.getElementById('PointID2').value.trim();
-            var APPID = document.getElementById('AppID').value.trim(); // APPID is the NETPIE APPID you have created in your NETPIE account; ex. TestAPP
-            var KEY = document.getElementById('Key').value.trim(); // KEY is the "key" of key-secret pair generated in your NETPIE APPID; ex. cDfhyTVfIoDtRzB
-            var SECRET = document.getElementById('Secret').value.trim(); // SECRET is the "secret" of key-secret pair generated in your NETPIE APPID; ex. KuuCtU1bUPyLEfYP2tqQYsuWf
+            var APPID = document.getElementById('AppID').value.trim();
+            var KEY = document.getElementById('Key').value.trim();
+            var SECRET = document.getElementById('Secret').value.trim();
             return [pointID1, pointID2, APPID, KEY, SECRET];
         }
 
@@ -50,7 +50,7 @@ Ver 0.1 Written by: Dr C Aswakul (8 Feb 2019)
 
             microgear_.on('connected', function () {
                 window.alert("connected");
-                microgear_.subscribe("Your subscribed topic"); // "Your subscribed topic" looks like file directory pattern; ex. "myTopicName/returnedSensorData/Bedroom"
+                microgear_.subscribe("/ReturnData");
             });
 
 
@@ -73,7 +73,7 @@ Ver 0.1 Written by: Dr C Aswakul (8 Feb 2019)
         }
 
         function Fetching(){
-            microgear_.publish("Your publish topic", keyIDSet); // "Your publish topic" looks like file directory pattern; ex. "myTopicName/myRequestSensor/Bedroom"
+            microgear_.publish("/FetchData", keyIDSet);
         }
 
         function DisConnected() {
@@ -140,14 +140,14 @@ Ver 0.1 Written by: Dr C Aswakul (8 Feb 2019)
     <h4> (1) Try to copy one of the following URLs and paste it on either 'Point ID #1' or 'Point ID #2' box. </h4> <br>
     
 
-    <p> Your sensor URL 1 : _____/energy </p> 
-    <p> Your sensor URL 2 : _____/pir </p> <br>
+    <p> http://bems.ee.eng.chula.ac.th/eng4/fl12/south/officeroom_commu/z1/aircon1/monitor/energy </p>
+    <p> http://bems.ee.eng.chula.ac.th/eng4/fl12/south/officeroom_commu/z1/sensor1/monitor/pir </p> <br>
 
-    <p> Your sensor URL 3 : _____/energy </p>
-    <p> Your sensor URL 4 : _____/pir </p> <br>
+    <p> http://bems.ee.eng.chula.ac.th/eng4/fl12/south/meetingroom_sjp/z1/aircon1/monitor/energy </p>
+    <p> http://bems.ee.eng.chula.ac.th/eng4/fl12/south/meetingroom_sjp/z1/sensor2/monitor/pir </p> <br>
 
-    <p> Your sensor URL 5 : _____/energy </p>
-    <p> Your sensor URL 6 : _____/pir </p> <br>
+    <p> http://bems.ee.eng.chula.ac.th/eng4/fl12/south/lab_csbl/z1/aircon1/monitor/energy </p>
+    <p> http://bems.ee.eng.chula.ac.th/eng4/fl12/south/lab_csbl/z1/sensor2/monitor/pir </p> <br>
 
     <h4> (2) Copy one more URL and paste it on another 'Point ID' box (optional). </h4>
     <h4> &nbsp; &nbsp; &nbsp;    For example, to calculate wasted energy in a room (optional), copy the energy sensor URL (URL with "/energy" at the end) and its pair PIR (URL with "/pir" at the end) </h4>
@@ -155,7 +155,7 @@ Ver 0.1 Written by: Dr C Aswakul (8 Feb 2019)
     <h4> &nbsp; &nbsp; &nbsp;    for building energy management system with wasted energy analysis using motion sensor. The 39th Electrical Engineering Conference (EECON-39), Phetchaburi City, Thailand, 2016", </h4>
     <h4> &nbsp; &nbsp; &nbsp;    if PIR shows that there is no one in the room (PIR sensor status : "OFF") while the air-conditioner is operating (energy sensor status : higher than 0), </h4>
     <h4> &nbsp; &nbsp; &nbsp;    wasted energy occurs. </h4>
-    <h4> (3) Copy Your APPID, Your key, and Your secret. Paste them in 'APPID', 'KEY', and 'SECRET' boxes, respectively </h4>
+    <h4> (3) Copy "CUBEMS", "1MoBtr6A9SmfZ7V", and "ntigE0QMEHEflms0RagZDK1Ux" (without quotes) and paste them in 'APPID', 'KEY', and 'SECRET' boxes, respectively </h4>
     <h4> (4) Click "Start FETCH" button to fetch data from CUBEMS. If you want to stop fetch, just click "Stop FETCH" botton. </h4> <br><br>
 
 
