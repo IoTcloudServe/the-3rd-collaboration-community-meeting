@@ -90,7 +90,7 @@ Requests and limits are on a per-container basis. While Pods usually contain a s
 
 To control what requests and limits a container can have, you can set quotas at the Container level and at the Namespace level. If you want to learn more about Namespaces, see this previous installment from our blog series!
 
-Let’s see how these work.
+
 </details>
 
 
@@ -126,8 +126,7 @@ If you are using a production and development Namespace (in contrast to a Namesp
 <details>
     <summary> Individual Container quota setting </summary>
     <p align="center">
-  <img width="300" height="360" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/LimRange.PNG"/>
-</p>
+  <img width="300" height="360" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/LimRange.PNG"/> </p>
   
 &nbsp; 
 
@@ -143,8 +142,78 @@ The max section will set up the maximum limits that a container in a Pod can set
 
 The min section sets up the minimum Requests that a container in a Pod can set. The defaultRequest section cannot be lower than this value. Likewise, requests set on a container cannot be lower than this value either. It is important to note that if this value is set and the defaultRequest section is not, the min value becomes the defaultRequest value too.
 
-Contact 
+
+</details>
+
+<details>
+    <summary> 1st Demo POD </summary>
+      
+&nbsp; In this Demo, I showed that I could set POD quota. 
+
+I will configured quota resource in the namespace to limit the number of pod in the namespace 
+
+the configured file (.ymal) is shown below : 
+
+<p align="center">
+  <img width="300" height="280" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/pod.PNG"/> </p>
+
+as you can see from .yaml Type : ResourceQuota (it means that we applied this quota to the namespace)
+
+pod: "6" means "in this namespace, there should not be more than 6 pods" .
+
+
+<h6><a href="https://202.28.193.103">>>Live Demo via IoTCloudServe :)<<</a></h6>
+
 
 
 </details>
+
+<details>
+    <summary> 2nd Demo CPU Mem </summary>
+      
+&nbsp; This Demo shows how admins can limit&request cpu mem on the container level. we are going to show that by our quota configuration, even if containers consume cpu mem resources over the specified quota Limit, the user can not uses the resources more than limit.
+
+Deploy Configuration file (.ymal) we deploy test workload for cpu and mem stress test and also set the specific quota.
+
+<p align="center">
+  <img width="300" height="280" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/quota-mem-cpu.PNG"/> </p>
+
+looking at this file we reserve the mem and cpu (600Mb and 400 millicores) and set the maximum quota to 800 Mb and 800 millicores" .
+
+<p align="center">
+  <img width="760" height="565" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/Gafana.PNG"/> </p>
+
+
+As you can see from Gafana, the quota is being implemented
+
+
+
+<h6><a href="https://202.28.193.103">>>Live Demo via IoTCloudServe :)<<</a></h6>
+
+
+
+</details>
+
+
+<details>
+    <summary> 3rd Demo CPU Mem </summary>
+      
+&nbsp; The purpose of Demo is to shows admins can limit&request the storage claim on in the nameSpace 
+
+Configuration file (.ymal) 
+
+<p align="center">
+  <img width="300" height="250" src="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/pvc.PNG"/> </p>
+
+from this file, we set the persistentvolumeclaims to 2, it means that in this namespace the user can claim only 2 times. requests.storage: 10 Gi means that in the namespace total pvc claims must not be exceeded 10 Gi.
+
+
+<h6><a href="https://202.28.193.103">>>Live Demo via IoTCloudServe :)<<</a></h6>
+
+
+
+</details>
+
+
+
 
