@@ -4,7 +4,7 @@
 Using Rancher, you can monitor the state and processes of your cluster nodes, Kubernetes components, and software deployments through integration with Prometheus, a leading open-source monitoring solution.
 
 <p align="center">
-  <img width="863" height="563" src="/Presentation_program/3_Demonstration_of_Integrating_Tools/picture/demo1.PNG"/>
+  <img width="863" height="563" src="/Presentation_program/3_Demonstration_of_Integrating_Tools/picture/demo1.png"/>
 </p>
 
 ## Monotoring Scope
@@ -22,5 +22,5 @@ You can monitor Rancher at both the cluster level and project level. For each cl
 The dashboard is a very helpful tool to give you an overview of the status of your Ceph cluster, including overall health, status of the mon quorum, status of the mgr, osd, and other Ceph daemons, view pools and PG status, show logs for the daemons, and more. Rook makes it simple to enable the dashboard.
 
 <p align="center">
-  <img width="863" height="563" src="/Presentation_program/3_Demonstration_of_Integrating_Tools/picture/ceph-dashboard.PNG"/>
+  <img width="863" height="563" src="/Presentation_program/3_Demonstration_of_Integrating_Tools/picture/ceph-dashboard.png"/>
 </p>
