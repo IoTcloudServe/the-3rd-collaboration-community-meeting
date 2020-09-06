@@ -24,3 +24,20 @@ The dashboard is a very helpful tool to give you an overview of the status of yo
 <p align="center">
   <img width="863" height="563" src="/Presentation_program/3_Demonstration_of_Integrating_Tools/picture/ceph-dashboard.png"/>
 </p>
+
+# Intregating Rancher and Longhorn Dashboard for Overview of Distributed Block Storage in Kubernetes Cluster
+
+Longhorn implements distributed block storage using containers and microservices. Longhorn creates a dedicated storage controller for each block device volume and synchronously replicates the volume across multiple replicas stored on multiple nodes. The storage controller and replicas are themselves orchestrated using Kubernetes. Here are some notable features of Longhorn:
+
+* Enterprise-grade distributed storage with no single point of failure
+* Incremental snapshot of block storage
+* Backup to secondary storage (NFSv4 or S3-compatible object storage) built on efficient change block detection
+* Recurring snapshot and backup
+* Automated non-disruptive upgrade. You can upgrade the entire Longhorn software stack without disrupting running volumes!
+* Intuitive GUI dashboard
+
+
+<p align="center">
+  <img width="863" height="563" src="/Presentation_program/3_Demonstration_of_Integrating_Tools/picture/longhorn-ui.png"/>
+</p>
+
