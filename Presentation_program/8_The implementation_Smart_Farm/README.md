@@ -10,10 +10,15 @@ National University of Laos. <br>
 
 **Contact :**<br> senglathsamy@nuol.edu.la
 
-<details>
-    <summary>Click Here for Short Biography!</summary>
-    ....(Optional)....
-</details>
+<img width="20%" alt="your_picture" src ="/Presentation_program/8_The implementation_Smart_Farm/picture/....(file name of picture).." />
+
+**Name :**<br> Mr Khampheth BOUNNADY
+
+**Affiliation :** Department of Computer Engineering and Information Technology <br>
+Faculty of Engineering <br>
+National University of Laos. <br>
+
+**Contact :**<br> khamphet@fe-nuol.edu.la
 
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
 <h3> ....(you presentation topic)...</h3>
