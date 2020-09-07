@@ -1,6 +1,6 @@
 ## <img width="3.5%" src="/Agenda/picture/biblio.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">About Speaker</i> 
 
-<img width="20%" alt="your_picture" src =<img width="20%" alt="your_picture" src ="/Presentation_program/2_Toward_Large-Scale_Microservice/picture/Teerit.jpg" /></a> />
+<img width="20%" alt="your_picture" src ="/Presentation_program/2_Toward_Large-Scale_Microservice/picture/Teerit.jpg" /></a>
 
 **Name :**<br>Teerit Ploensin
 
