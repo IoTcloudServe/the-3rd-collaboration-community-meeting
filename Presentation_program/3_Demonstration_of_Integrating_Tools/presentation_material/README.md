@@ -41,7 +41,7 @@ Longhorn implements distributed block storage using containers and microservices
 </p>
 
 # Intregating Rancher and EFK for Kubernetes Logging
-It gives you the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch and the visualization power of Kibana.
+The EFK stack is useful for troubleshooting logs, dashboarding, and detecting issues as they come up—all in a user-friendly interface. It gives you the ability to analyze any data set by using the searching/aggregation capabilities of Elasticsearch and the visualization power of Kibana.
 
 <p align="center">
   <img width="1000" height="563" src="/Presentation_program/3_Demonstration_of_Integrating_Tools/picture/efk.png"/>
