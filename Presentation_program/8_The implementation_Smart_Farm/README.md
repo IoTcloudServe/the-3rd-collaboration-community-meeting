@@ -2,11 +2,13 @@
 
 <img width="20%" alt="your_picture" src ="/Presentation_program/8_The implementation_Smart_Farm/picture/....(file name of picture).." />
 
-**Name :**<br>...(your name)...
+**Name :**<br> Mr Senglathsamy CHANTHAMENAVONG
 
-**Affiliation :**<br>...(your affiliation)...
+**Affiliation :** Department of Computer Engineering and Information Technology <br>
+Faculty of Engineering <br>
+National University of Laos. <br>
 
-**Contact :**<br>...(your email)...
+**Contact :**<br> senglathsamy@nuol.edu.la
 
 <details>
     <summary>Click Here for Short Biography!</summary>
