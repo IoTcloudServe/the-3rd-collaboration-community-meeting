@@ -33,5 +33,6 @@
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
 - [fetch.html](presentation_material/fetch_.html)
 - [Slide - Presentation](presentation_material/Smart%20Energy.pdf)
+- [Parallel Computing Demo Case](https://github.com/IoTcloudServe/Smart-Energy-Chula/tree/master/Parallel%20computing%20running%20on%20Kubernetes)
 
 <h3><a href="/Presentation_program/13_Cloud_Based_Smart_Energy/presentation_material">>>Click Here to Download Materials<<</a></h3>
