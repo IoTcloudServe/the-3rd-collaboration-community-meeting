@@ -17,4 +17,4 @@
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
 - Demonstration-of-Integrating-Tools-for-Logging-Monitoring-and-Visibility-System-for-IoTcloudServe@TEIN.pdf <br>
-<h3><a href="/Presentation_program/3_Demonstration_of_Integrating_Tools/presentation_material/Demonstration-of-Integrating-Tools-for-Logging-Monitoring-and-Visibility-System-for-IoTcloudServe@TEIN.pdf">>>Click Here for Download Materials<<</a></h3>
+<h3><a href="/Presentation_program/3_Demonstration_of_Integrating_Tools/presentation_material/Demonstration_of_Integrating.pdf">>>Click Here for Download Materials<<</a></h3>

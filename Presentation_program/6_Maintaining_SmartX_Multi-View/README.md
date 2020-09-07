@@ -1,24 +1,21 @@
 ## <img width="3.5%" src="/Agenda/picture/biblio.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">About Speaker</i> 
 
-<img width="20%" alt="your_picture" src ="/Presentation_program/6_Maintaining_SmartX_Multi-View/picture/....(file name of picture).." />
+<img width="20%" alt="your_picture" src ="/Presentation_program/6_Maintaining_SmartX_Multi-View/picture/Muhammad_Rathore.jpg" />
 
-**Name :**<br>...(your name)...
+**Name :**<br>Muhammad Ahmad Rathore
 
-**Affiliation :**<br>...(your affiliation)...
+**Affiliation :**<br>Gwangju Insititue of Science and Technology (GIST), South Korea
 
-**Contact :**<br>...(your email)...
+**Contact :**<br>ahmad@smartx.kr
 
 <details>
     <summary>Click Here for Short Biography!</summary>
-    ....(Optional)....
+    I’m a research and development scientist working to better understand how modern computing systems integratedly work to deploy user-defined micro-services. My expertise includes software design and management, monitoring, data analysis with dedicated visualizations, and the development of research and operational tools. I enjoy generating new ideas and devising feasible solutions to broadly relevant problems. My colleagues would describe me as a driven, resourceful individual who maintains a positive, collaborative attitude when faced with adversity. Currently, I’m seeking opportunities that will allow me to develop and promote technologies that benefit service providers and users. Specific fields of interest include cloud computing, edge computing, Software-defined networking, data analytics and visualization, and Internet of things.
 </details>
 
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
-<h3> ....(you presentation topic)...</h3>
+<h3>Maintaining SmartX Operations for OF@TEIN+ Distributed Cloud-native Edge Boxes</h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
-<h3><a href="/Presentation_program/6_Maintaining_SmartX_Multi-View/presentation_material">>>Click Here for Download Materials<<</a></h3>
+- Maintaining_SmartX_Operations.pptx <br>
+<h3><a href="/Presentation_program/6_Maintaining_SmartX_Multi-View/presentation_material/Maintaining_SmartX_Operations.pptx">>>Click Here for Download Materials<<</a></h3>
