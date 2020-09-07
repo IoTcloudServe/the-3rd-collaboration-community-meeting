@@ -10,15 +10,12 @@
 
 <details>
     <summary>Click Here for Short Biography!</summary>
-    ....(Optional)....
 </details>
 
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
 <h3> An Experimental Study of Kubernetes Cluster Peer-to-Peer Application Level Federation via Istio Service Mesh</h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
+- An_Experiment.pdf <br>
+- Guide for do an Experiment <br>
 <h3><a href="/Presentation_program/5_Experimental_Study_of_Kubernetes/presentation_material">>>Click Here for Download Materials<<</a></h3>
