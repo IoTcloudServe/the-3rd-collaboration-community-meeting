@@ -32,6 +32,6 @@
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
 - [fetch.html](presentation_material/fetch_.html)
-- [Slide - Presentation](presentation_material/Smart Energy.pdf)
+- [Slide - Presentation](presentation_material/Smart%20Energy.pdf)
 
 <h3><a href="/Presentation_program/13_Cloud_Based_Smart_Energy/presentation_material">>>Click Here to Download Materials<<</a></h3>
