@@ -32,7 +32,7 @@ National Electronics and Computer Technology Center<br>
 </details>
 
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
-<h3> ....(you presentation topic)...</h3>
+<h3>Update on the new NETPIE IoT cloud and edge</h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
 - Update_on_NETPIE2020.pdf<br>
