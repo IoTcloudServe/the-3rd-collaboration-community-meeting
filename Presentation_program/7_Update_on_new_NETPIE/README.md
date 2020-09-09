@@ -36,6 +36,5 @@ National Electronics and Computer Technology Center<br>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
 - Update_on_NETPIE2020.pdf<br>
-<h3><a href="/Presentation_program/7_Update_on_new_NETPIE/presentation_material/Update_on_NETPIE2020.pdf">>>Click Here for Download Materials<<</a></h3>
 - Edge_Hub.pdf<br>
-<h3><a href="/Presentation_program/7_Update_on_new_NETPIE/presentation_material/Edge_Hub.pdf">>>Click Here for Download Materials<<</a></h3>
+<h3><a href="/Presentation_program/7_Update_on_new_NETPIE/presentation_material/">>>Click Here for Download Materials<<</a></h3>
