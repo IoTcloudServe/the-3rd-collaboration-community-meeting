@@ -2,11 +2,23 @@
 
 <img width="20%" alt="your_picture" src ="/Presentation_program/7_Update_on_new_NETPIE/picture/....(file name of picture).." />
 
-**Name :**<br>...(your name)...
+**Name :**<br>Dr Aimaschana Niruntasukrat
 
-**Affiliation :**<br>...(your affiliation)...
+**Affiliation :**<br>Reasearcher<br>Center for Cyber-Physical Systems<br>
+National Computing and Cyber-Physical Infrastructure<br>
+National Electronics and Computer Technology Center<br>
 
-**Contact :**<br>...(your email)...
+**Contact :**<br>aimaschana.niruntasukrat@nectec.or.th
+
+<img width="20%" alt="your_picture" src ="/Presentation_program/7_Update_on_new_NETPIE/picture/....(file name of picture).." />
+
+**Name :**<br>Mr Natapon Tansangworn
+
+**Affiliation :**<br>Research Assistant<br>Center for Cyber-Physical Systems<br>
+National Computing and Cyber-Physical Infrastructure<br>
+National Electronics and Computer Technology Center<br>
+
+**Contact :**<br>natapon.tan@nectec.or.th
 
 <details>
     <summary>Click Here for Short Biography!</summary>
