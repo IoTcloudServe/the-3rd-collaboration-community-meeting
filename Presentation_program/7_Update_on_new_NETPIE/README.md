@@ -28,7 +28,6 @@ National Electronics and Computer Technology Center<br>
 
 <details>
     <summary>Click Here for Short Biography!</summary>
-    ....(Optional)....
 </details>
 
 ## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
