@@ -19,8 +19,6 @@
 <h3> Cloud-native & Data-centric AI+X Infrastructure and Platform</h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
-<h3><a href="/Presentation_program/1_Key_note/presentation_material">>>Click Here for Download Materials<<</a></h3>
+- AI Infra_&_Platform-v09(IoTCloud).pdf <br>
+
+<h3><a href="/Presentation_program/1_Key_note/presentation_material/AI Infra_&_Platform-v09(IoTCloud).pdf">>>Click Here for Download Materials<<</a></h3>

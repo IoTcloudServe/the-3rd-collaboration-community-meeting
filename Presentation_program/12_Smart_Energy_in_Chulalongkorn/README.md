@@ -20,8 +20,5 @@ Virginia Tech – Advanced Research Institute, USA
 <h3> Smart Energy in Chulalongkorn University's Smart Campus </h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
+- Slide presentation which the visualization web page are provided in slide <br>
 <h3><a href="/Presentation_program/12_Smart_Energy_in_Chulalongkorn/presentation_material">>>Click Here for Download Materials<<</a></h3>
