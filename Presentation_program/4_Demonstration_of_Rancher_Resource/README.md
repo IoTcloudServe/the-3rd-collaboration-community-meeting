@@ -17,8 +17,6 @@
 <h3> Demonstration of Rancher Resources Control policies </h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
-- please specify here <br>
+- <a href="Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material/PPT_Demo-Resource-Quota-Rancher_Natt_20200901.pdf">Presentation Slide</a><br>
+- Guideline for implement the resource quota control<br>
 <h3><a href="/Presentation_program/4_Demonstration_of_Rancher_Resource/presentation_material">>>Click Here for Download Materials<<</a></h3>
