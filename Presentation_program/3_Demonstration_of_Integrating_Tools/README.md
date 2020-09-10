@@ -12,7 +12,8 @@
     <summary>Click Here for Short Biography!</summary>
 </details>
 
-## <img width="3.5%" src="/Agenda/picture/present.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Topic:</i>
+## <img width="3.5%" src="/Agenda/picture/present.png" />
+
 <h3>Demonstration of Integrating Tools for Logging Monitoring and Visibility System for IoTcloudServe@TEIN</h3>
 
 ## <img width="3.5%" src="/Agenda/picture/material.png" /><link rel="stylesheet" type="text/css" media="all" href="./css/logo.css"/> <i class = "fa fa-handshake-p" aria-hidden="true">Presentation Material:</i>
